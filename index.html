@@ -39,10 +39,10 @@
     </nav>
     <div class="overAllHeroDiv">
       <div class="overAllHeroDivText">
-        <h5>Step into the transformative world of EduStain, where education and social welfare converge to create lasting change.</h5>
+        <h5 id="overAllHeroDivTextH5">Step into the transformative world of EduStain, where education and social welfare converge to create lasting change.</h5>
         <div class="heroButtonDiv">
-          <button>Donate Now</button>
-          <button>Volunteer</button>
+          <button class="heroButtonDivChild">Donate Now</button>
+          <button class="heroButtonDivChild">Volunteer</button>
         </div>
       </div>
     </div>
@@ -111,7 +111,7 @@ We firmly believe that education, when comprehensive and all-encompassing, can b
           </div>
         </div>
       </div>
-      <div class="blogFeedbackSection">
+      <!-- <div class="blogFeedbackSection">
         <h3>Share Your Thoughts and Stories</h3>
         <form action="" method="post" class="blogStoryForm">
           <div class="stories">
@@ -124,13 +124,13 @@ We firmly believe that education, when comprehensive and all-encompassing, can b
           </div>
           <button>Submit</button>
         </form>
-      </div>
+      </div> -->
     </section>
 
     <section>
       <div class="blogFeedbackSection">
         <h3>Get in Touch with EduStain</h3>
-        <form action="" method="post" class="blogStoryForm">
+        <!-- <form action="" method="post" class="blogStoryForm">
           <div class="stories">
             <p class="center"><i>Questions? Ideas? We're Listening. Contact Us for a Meaningful Dialogue.</i></p>
           </div>
@@ -145,7 +145,25 @@ We firmly believe that education, when comprehensive and all-encompassing, can b
             <p><i>Pictures add credibility and clarity to your story</i></p>
           </div>
           <button>Submit</button>
-        </form>
+        </form> -->
+        <div id="formDiv">
+          <form action="" method="post" class="feedBackForm">
+            <div class="stories">
+              <p class="center"><i>Questions? Ideas? We're Listening. Contact Us for a Meaningful Dialogue.</i></p>
+            </div>
+            <div class="userInfo">
+              <input type="text" name="fullname" id="fullname" placeholder="Muhammad Yusuf" required>
+              <input type="email" name="email" id="email" placeholder="maimunaIsa@gmail.com">
+              <input type="tel" name="phoneNo" id="phoneNo" placeholder="08012345678">
+              <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+            </div><br>
+            <div class="proofPicture">
+              <input type="file" name="pics" id="pics">
+              <p><i>Pictures add credibility and clarity to your story</i></p>
+            </div>
+            <button>Submit</button>
+          </form>
+        </div>
       </div>
       <div id="lineBreak">
         <hr>
