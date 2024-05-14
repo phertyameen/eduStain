@@ -153,6 +153,12 @@ li a:hover{
     list-style: none;
     display: flex;
 }
+@keyframes carousel {
+    0%, 100% { background-image: linear-gradient(to bottom, rgba(4, 4, 4, 0.6) 60%, rgba(4, 4, 4, 0.35) 100%), url('./assets/image10.jpg'); }
+    50% { background-image: linear-gradient(to bottom, rgba(4, 4, 4, 0.6) 60%, rgba(4, 4, 4, 0.35) 100%), url('./assets/image6.jpg'); }
+    60% { background-image: linear-gradient(to bottom, rgba(4, 4, 4, 0.6) 60%, rgba(4, 4, 4, 0.35) 100%), url('./assets/image5.jpg'); }
+    60% { background-image: linear-gradient(to bottom, rgba(4, 4, 4, 0.6) 60%, rgba(4, 4, 4, 0.35) 100%), url('./assets/students.jpg'); }
+}
 .overAllHeroDiv{
     width: 100%;
     height: 90vh;
@@ -721,6 +727,14 @@ footer .child_p{
 }
 .outreach{
     background: linear-gradient(to bottom, rgba(4, 4, 4, 0.6) 60%, rgba(4, 4, 4, 0.35) 100%), url('./assets/outreach.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.literacy{
+    background: linear-gradient(to bottom, rgba(4, 4, 4, 0.6) 60%, rgba(4, 4, 4, 0.35) 100%), url('./assets/image10.jpg');
+    background-size: cover;
+    background-position: center;
+    animation: carousel 8000ms infinite;
 }
 #formDiv{
     width: 100%;
