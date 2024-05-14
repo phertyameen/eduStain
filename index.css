@@ -325,7 +325,7 @@ li a:hover{
 .sect3Pdiv h4{
     font-size: 30px;
 }
-.
+
 /* footer */
 footer{
     padding-top: 5rem;
@@ -722,14 +722,6 @@ footer .child_p{
 .outreach{
     background: linear-gradient(to bottom, rgba(4, 4, 4, 0.6) 60%, rgba(4, 4, 4, 0.35) 100%), url('./assets/outreach.jpg');
 }
-
-/* blogFeedbackSection */
-/* .blogFeedbackSection{
-    width: 80%;
-    margin-inline: auto;
-    border-radius: 0.5rem;
-    box-shadow: 1px 1px 1px 1px var(--primary-box-shadow);
-} */
 #formDiv{
     width: 100%;
     width: 100%;
@@ -920,10 +912,16 @@ footer .child_p{
     .blogsSect{
         width: 100%;
     }
-    .blogStoryForm .proofPicture{
-        margin-left: 50%;
-        width: 70%;
-        transform: translate(-50%, -50%);
+    .entreprenualEdu{
+        height: 50vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .proofPicture{
+        flex-direction: column;
+        align-items: center;
+        margin: 0.2rem;
     }
 
     /* contact us section */
