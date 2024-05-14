@@ -325,6 +325,7 @@ li a:hover{
 .sect3Pdiv h4{
     font-size: 30px;
 }
+.
 /* footer */
 footer{
     padding-top: 5rem;
@@ -708,14 +709,18 @@ footer .child_p{
     height: max-content;
 }
 .entreprenualEdu{
-    height: 50vh;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(4, 4, 4, 0.6) 60%, rgba(4, 4, 4, 0.35) 100%), url('./assets/image9.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-repeat: no-repeat;
 }
-.entreprenualEdu{
-    background-image: url('./assets/');
+.techEvent{
+    background: linear-gradient(to bottom, rgba(4, 4, 4, 0.6) 60%, rgba(4, 4, 4, 0.35) 100%), url('./assets/devfest.jpg');
+}
+.outreach{
+    background: linear-gradient(to bottom, rgba(4, 4, 4, 0.6) 60%, rgba(4, 4, 4, 0.35) 100%), url('./assets/outreach.jpg');
 }
 
 /* blogFeedbackSection */
@@ -807,6 +812,19 @@ footer .child_p{
     border: 1px solid var(--primary);
     outline: none;
     padding: 0.3rem 0.5rem;
+}
+.proofPicture{
+    display: flex;
+    justify-content: center;
+}
+#feedBackBtn{
+    margin: 1rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    background-color: var(--tertiary);
+    color: var(--white);
+    justify-content: center;
 }
 #lineBreak{
     margin-block: 4rem;
